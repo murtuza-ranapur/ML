@@ -1,0 +1,3 @@
+https://janav.wordpress.com/2013/10/27/tf-idf-and-cosine-similarity/-->TF-IDF
+http://rangerway.com/way/spam-filter-three
+http://radimrehurek.com/data_science_python/
