@@ -11,7 +11,7 @@ file = open("lib/sms_for_test.txt")
 reObject=re.compile(r'(.*),(spam|ham)$')
 filter=Filter()
 msg = filter.getFiltered(reObject,file)
-print(msg)
+
 msgs_bag_of_word=bow.transform(msg['data'])
 msgs_tfidf=tfidf.transform(msgs_bag_of_word)
 predictions=detector.predict(msgs_tfidf)
