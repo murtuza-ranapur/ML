@@ -14,8 +14,8 @@ class Filter:
     def getFiltered(self,reObject,file):
         for i in file.readlines():
             out=reObject.search(i)
-            self.dic['label'].append(out.group(2))
-            filter_1 = re.sub(r'\W', ' ', out.group(1))  # remove non alphabets
+            self.dic['label'].append(out.group(1))
+            filter_1 = re.sub(r'\W', ' ', out.group(2))  # remove non alphabets
             filter_2 = re.sub(r'\b.{1}\b', ' ', filter_1)  # remove single character
             filter_3 = nltk.word_tokenize(filter_2)  # tokenize
             filter_4 = [words.lower() for words in filter_3]  # lowercase everthing

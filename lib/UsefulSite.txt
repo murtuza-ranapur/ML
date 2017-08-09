@@ -2,3 +2,4 @@ https://janav.wordpress.com/2013/10/27/tf-idf-and-cosine-similarity/-->TF-IDF
 http://rangerway.com/way/spam-filter-three
 http://radimrehurek.com/data_science_python/
 https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset-->Next Objective
+https://www.youtube.com/watch?v=km2LoOpdB3A-->Worked out example on Multinomial NB
