@@ -4,3 +4,4 @@ http://radimrehurek.com/data_science_python/
 https://www.youtube.com/watch?v=km2LoOpdB3A-->Worked out example on Multinomial NB
 http://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note07-2up.pdf ---> naive bayes
 https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset-->Next Objective
+https://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html#mifeatsel2 --->Mutual information example
