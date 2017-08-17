@@ -47,7 +47,7 @@ def tochar(val):
     newval=list(newval)
     return newval
 
-def checkVowel(val):
+def checkVowel(val): # 100%
     newval=val[1]
     if newval=='a' or newval=='e'or newval=='i' or newval=='o'or newval=='u':
         return 'plus'
