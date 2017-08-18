@@ -2,6 +2,7 @@ import pandas as pd
 import nltk
 from nltk.stem.snowball import SnowballStemmer
 import re
+from tqdm import tqdm
 
 class Filter:
     def __init__(self):
@@ -12,7 +13,7 @@ class Filter:
         self.sw = set(sw)
 
     def getFiltered(self,reObject,file):
-        for i in file.readlines():
+        for i in tqdm(file.readlines()):
             out=reObject.search(i)
             self.dic['label'].append(out.group(1))
             filter_1 = re.sub(r'\W', ' ', out.group(2))  # remove non alphabets

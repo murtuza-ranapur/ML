@@ -3,13 +3,10 @@ import re
 import nltk
 import math
 from nltk.stem.snowball import SnowballStemmer
-from textblob import TextBlob as tb
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
-from sklearn.datasets import fetch_20newsgroups
-from sklearn.cross_validation import train_test_split
 
 
 def tf(word,blob):
